@@ -6,5 +6,12 @@ $ sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential chrp
 $ pip3 install pylint  
 $ sudo apt update
 $ sudo apt install snapd  
-$ sudo snap install --classic code  
+$ sudo snap install --classic code                     
+
+Step 2: Create a project folder and clone the poky in it  
+$ mkdir yocto_beaglebone   
+$ cd yocto_beaglebone 
+$ git clone git://git.yoctoproject.org/poky -b kirkstone  
+
+
 
