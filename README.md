@@ -1,3 +1,12 @@
+Hardware  
+
+1. Beaglebone Green  
+2. USB to TTL Serial Cable  
+    (https://www.adafruit.com/product/954?srsltid=AfmBOopoXZV1nY7bMRwU13Qbwtu_iGT67DTkfTvBMrB0jgwm4haW3SpB)    
+4. Mini USB Cable  
+5. Host Computer (preferred 8 cores, 16 threads, 32 GB RAM, 500 GB SSD, Ubuntu OS: 22.04)  
+
+
 Yocto Build Beaglebone Green 
 
 Step 1. Setup Host computer : Install following packages from the host computer (OS: Ubuntu 22.04 LTS)    
