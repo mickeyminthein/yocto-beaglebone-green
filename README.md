@@ -13,5 +13,24 @@ $ mkdir yocto_beaglebone
 $ cd yocto_beaglebone 
 $ git clone git://git.yoctoproject.org/poky -b kirkstone  
 
+Step 3: Initialize Build Environment  
+$ cd poky   
+$ source oe-init-build-env  
+
+Step 4: Edit Local Config
+From vs code terminal,   
+$ code local.conf  
+
+MACHINE ?= "beaglebone-yocto"  
+RM_OLD_IMAGE = "1"  
+INHERIT += "rm_work"
+
+Step 5: Build Image  
+$ bitbake core-image-full-cmdline  
+
+
+
+
+
 
 
